@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------Start Fisrt section style ----------------------*/
+
+
+
+
+.pro-img-section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .newsletter input:first-child{
+    width: 60%;
+    display: inline-block;
+    padding: 10px 11px 12px;
+    border-radius: 30px ;
+    outline: none;
+    color:gray;
+    border:0;
+    background: rgb(238, 237, 237);
+   
+   
+  }
+
+  .title-First-name{
+    color:#6c757d;
+  }
+
+  .title-First-name{
+    color:"#5c636a";
+  }
+
+  .title-First-im{
+    color:#77c0c6;
+  }
+
+  .title-First{
+    color:#6c757d;
+  }
+
+  .clr-icon{
+    color:#0b5ed7;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+/*---------------------------------------------------*/
+
+/*------------Start ABOUT STYLE---------------*/
+ #ABOUT{
+  background-color: #0b5ed7;
+  width: 100%;
+  height:auto;
+ }
+
+ .paragraphe-about{
+  line-height: 25px;
+  color: #fff;
+ }
+
+
+/*---------------------------------------------------*/
+/*------------Start WORK STYLE---------------*/
+ .title-Work-One{
+
+  color:#0b5ed7;
+ }
+ 
+
+
+
+/*---------------------------------------------------*/
+/*------------Start RESUM SKILLS STYLE---------------*/
+
+
+.resum{
+  background-color: #0b5ed7;
+  width: 100%;
+  height:auto;
+  display: grid;
+  place-items: center;
+ }
+
+ .Skills-bar{
+  width:600px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  padding: 25px 30px;
+ }
+
+
+ .Skills-bar .bar{
+  margin:20px 0;
+ }
+
+ .Skills-bar .bar:first-child{
+  margin-top: 0;
+ }
+
+ .Skills-bar .bar .info span{
+  font-size: 17px;
+  font-weight: 500;
+ }
+
+ .Skills-bar .bar .progress-line{
+  position: relative;
+  height:10px;
+  width:100%;
+  background: #f0f0f0;
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+                    0px 1px 1px rgba(255,255,255,0.8);
+ }
+
+ .bar .progress-line span{
+  height: 100%;
+  width:80%;
+  position: absolute;
+  background: #6665ee;
+ }
+/*---------------------------------------------------*/
+
+
+/*------------Start CONTACT STYLE---------------*/
+
+ .contact-title span{
+  font-size: 18px;
+  color:#6665ee;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 700;
+ }
+
+ .contact-form input{
+  width:100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  outline: none;
+  border-radius: 5px;
+  background: #ddd;
+  border:0;
+ }
+
+ .contact-form textarea{
+  width:100%;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #f0f0f0;
+  outline: none;
+ }
+
+ .contact-btn {
+  border:0;
+  padding:8px 9px;
+  font-size: 22px;
+  border-radius: 5px;
+ }
+/*---------------------------------------------------*/
+/* ---------------------------------------------------------Footer-----------------------------------------------------------------------*/
+.footer-end{
+  background-color: #0b5ed7;
+  width:100%;
+  height:auto;
+}
+
+.content-footer{
+  display: inline-block;
+}
